@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "925496777294",
+    "project_id": "allgame-f71f3",
+    "storage_bucket": "allgame-f71f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925496777294:android:f30fe388f47b505fcf011f",
+        "android_client_info": {
+          "package_name": "com.example.web_view_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925496777294-1esu3n9rddfi1omo59h2ck9fm3cm70f3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCi33qIoM8YXsPu8TQUzqNX31r2szdOeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925496777294-1esu3n9rddfi1omo59h2ck9fm3cm70f3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

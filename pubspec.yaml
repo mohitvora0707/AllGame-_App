@@ -48,6 +48,8 @@ dependencies:
   get: ^4.6.5
   get_storage: ^2.0.3
   connectivity_plus: ^3.0.2
+  firebase_core: ^2.3.0
+  cloud_firestore: ^4.1.0
 
 
 dev_dependencies:

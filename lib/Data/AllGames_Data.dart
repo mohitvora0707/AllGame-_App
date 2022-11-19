@@ -1,3 +1,5 @@
+final List<Map<String, dynamic>> kkkk = [];
+
 final List<Map<String, dynamic>> AllGame = [
   /// Topgames//
   {
@@ -404,24 +406,25 @@ final List<Map<String, dynamic>> AllGame = [
         'https://img.cdn.famobi.com/portal/html5games/images/tmp/120/BurninRubber_Teaser.jpg?v=0.2-2dc8a5af'
   },
 ];
+List ttttt = kkkk.where((element) => element["category"] == "Racing").toList();
 
 List Topgames =
-    AllGame.where((element) => element['category'] == 'Top games').toList();
+    AllGame.where((element) => element["category"] == "Top games").toList();
 
 List PopularGame =
-    AllGame.where((element) => element['category'] == 'Popular game').toList();
+    AllGame.where((element) => element["category"] == "Popular game").toList();
 
 List GirlsGame =
-    AllGame.where((element) => element['category'] == 'Girls game').toList();
+    AllGame.where((element) => element["category"] == "Girls game").toList();
 
 List QuizGame =
-    AllGame.where((element) => element['category'] == 'Quiz game').toList();
+    AllGame.where((element) => element["category"] == "Quiz game").toList();
 
 List Racing =
-    AllGame.where((element) => element['category'] == 'Racing').toList();
+    AllGame.where((element) => element["category"] == "Racing").toList();
 
 List Cards =
-    AllGame.where((element) => element['category'] == 'Cards').toList();
+    AllGame.where((element) => element["category"] == "Cards").toList();
 
 List Sport =
-    AllGame.where((element) => element['category'] == 'Sport').toList();
+    AllGame.where((element) => element["category"] == "Sport").toList();
