@@ -138,7 +138,7 @@ class Navigation_Screen extends StatelessWidget {
                     leading: Icon(
                       Icons.grid_view,
                     ),
-                    title: Text('More Apps'),
+                    title: Text('More Appssssssss'),
                   ),
                 ),
                 Divider(
