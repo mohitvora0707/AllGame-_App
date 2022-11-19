@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
-import 'Web_View_Game.dart';
+import 'View/Navigation .dart';
 
 Future<void> main() async {
   await GetStorage.init();
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Web_Viwe_GAme(),
+      home: Navigation_Screen(),
     );
   }
 }

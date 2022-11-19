@@ -1,12 +1,11 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'Games.dart';
-import 'Web_View_Game.dart';
+import 'View/Navigation .dart';
 
 class Allgame extends StatefulWidget {
   final Category;
   final CategoryName;
-
   const Allgame({
     super.key,
     required this.Category,
@@ -35,7 +34,7 @@ class _AllgameState extends State<Allgame> {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => Web_Viwe_GAme(),
+                  builder: (context) => Navigation_Screen(),
                 ));
           },
           icon: Icon(
