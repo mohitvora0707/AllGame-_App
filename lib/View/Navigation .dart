@@ -12,6 +12,7 @@ import 'package:web_view_game/View/Home_Screen.dart';
 import '../Controller/InternetChakeController.dart';
 import '../Controller/NavigationController.dart';
 import '../Data/AllGames_Data.dart';
+import '../Demo.dart';
 import '../Model/GameModel.dart';
 import 'Add_Fev_Games_Screen.dart';
 import '../Controller/Fevorite_Add_Remove.dart';
@@ -201,7 +202,11 @@ class Navigation_Screen extends StatelessWidget {
         // ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            print('ttt------${ttttt.length}');
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => Demo(),
+                ));
           },
         ),
         body: StreamBuilder<QuerySnapshot>(

@@ -39,11 +39,13 @@ class Search extends SearchDelegate {
   @override
   Widget buildSuggestions(BuildContext context) {
     final suggestionList = query.isEmpty
-        ? AllGame
-        : AllGame.where((element) => [element['GameName'], element['category']]
-            .toString()
-            .toLowerCase()
-            .contains(query.toLowerCase())).toList();
+        ? kkkk
+        : kkkk
+            .where((element) => [element['GameName'], element['category']]
+                .toString()
+                .toLowerCase()
+                .contains(query.toLowerCase()))
+            .toList();
     // TODO: implement buildSuggestions
     return ListView.separated(
       itemCount: suggestionList.length,

@@ -26,7 +26,7 @@ class _FevState extends State<Fev> {
                       width: 100,
                     ),
                     Text(
-                      'Not Found Liked Game',
+                      'Not Liked Game',
                       style: TextStyle(
                         color: Colors.black,
                         fontSize: 18,

@@ -407,6 +407,15 @@ final List<Map<String, dynamic>> AllGame = [
   },
 ];
 List ttttt = kkkk.where((element) => element["category"] == "Racing").toList();
+List ttt2 =
+    kkkk.where((element) => element["category"] == "Top games").toList();
+
+List ttt3 =
+    kkkk.where((element) => element["category"] == "Popular game").toList();
+List ttt4 =
+    kkkk.where((element) => element["category"] == "Girls game").toList();
+
+List ttt5 = kkkk.where((element) => element["category"] == "Cards").toList();
 
 List Topgames =
     AllGame.where((element) => element["category"] == "Top games").toList();
